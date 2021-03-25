@@ -1,0 +1,2 @@
+# solitaire
+Popular card game.
