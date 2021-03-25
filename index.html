@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span>
+            <a href="">play again</a>
+        </span>
+        <span>
+            <h1>Solitaire</h1>
+        </span>
+        <span>
+            <p>0:00</p>
+        </span>
+    </header>
+    <main>
+        <div id="solitaire">
+            <div id="cards-row-first">
+                <div id="distribution">
+                    <div class="card back"></div>
+                </div>
+                <div id="final-piles">
+                    <div class="card">A</div>
+                    <div class="card">A</div>
+                    <div class="card">A</div>
+                    <div class="card">A</div>
+                </div>
+            </div>
+            <div id="cards-row-seccond">
+                <div id="piles">
+                    <div class="pile">
+                        <div class="card front">Q</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card front">Q</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card back"></div>
+                        <div style="z-index: 2; bottom:26vw" class="card">Q</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card back"></div>
+                        <div style="z-index: 2; bottom:26vw" class="card back"></div>
+                        <div style="z-index: 3; bottom:39vw" class="card">K</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card back"></div>
+                        <div style="z-index: 2; bottom:26vw" class="card back"></div>
+                        <div style="z-index: 3; bottom:39vw" class="card back"></div>
+                        <div style="z-index: 4; bottom:52vw" class="card">K</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card back"></div>
+                        <div style="z-index: 2; bottom:26vw" class="card back"></div>
+                        <div style="z-index: 3; bottom:39vw" class="card back"></div>
+                        <div style="z-index: 4; bottom:52vw" class="card back"></div>
+                        <div style="z-index: 5; bottom:65vw" class="card">K</div>
+                    </div>
+                    <div class="pile">
+                        <div class="card back"></div>
+                        <div style="z-index: 1; bottom:13vw" class="card back"></div>
+                        <div style="z-index: 2; bottom:26vw" class="card back"></div>
+                        <div style="z-index: 3; bottom:39vw" class="card back"></div>
+                        <div style="z-index: 4; bottom:52vw" class="card back"></div>
+                        <div style="z-index: 5; bottom:65vw" class="card back"></div>
+                        <div style="z-index: 5; bottom:78vw" class="card">K</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/solitaire.js"></script>
+</body>
+
+</html>

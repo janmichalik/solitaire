@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+    background-color: #007711;
+}
+
+header {
+    height: 6vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lobster', cursive;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+*::selection {
+    color: none;
+    background: none;
+}
+
+main {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#solitaire {
+    background-color: #006611;
+    height: 88vh;
+    border-left: 2vh solid #007711;
+    border-right: 2vh solid #007711;
+    border-bottom: 2vh solid #007711;
+    padding: 2vh;
+}
+
+.card {
+    background-color: whitesmoke;
+    height: 12.8vw;
+    width: 7.8vw;
+    border-radius: 1vw;
+    margin: 1vw;
+    border: 1px solid #333333;
+    box-shadow: 1px 1px 6px #333333;
+    position: relative;
+    cursor: grab;
+    font-size: 2vw;
+    padding: 0.2vw;
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+.front {
+    background-color: whitesmoke;
+}
+
+.back {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAKUlEQVR42mP4z8BAGNUHEEQMowaNGjRqEH6DiFBEjGWjBo0aNGoQXgQAt+4mzubRMgUAAAAASUVORK5CYII=');
+    background-repeat: repeat;
+}
+
+#distribution {
+    display: flex;
+
+}
+
+#final-piles {
+    display: flex;
+}
+
+#piles
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.pile {
+
+}
+
+#cards-row-first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+#cards-row-seccond {
+    display: flex;
+    justify-content: center;
+}
