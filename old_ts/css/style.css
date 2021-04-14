@@ -1,0 +1,27 @@
+body {
+    background-color: #0E8E39;
+    margin: 0;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #123422;
+    text-shadow: 1px 1px black;
+    font-size: 42px;
+}
+
+header {
+    text-align: center;
+    height: 60px;
+}
+
+section {
+    text-align: center;
+}
+
+#game {
+    width: 1280px;
+    height: 720px;
+    border: 1px solid black;
+}

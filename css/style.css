@@ -55,8 +55,8 @@ main {
     width: 7.8vw;
     border-radius: 1vw;
     margin: 1vw;
-    border: 1px solid #333333;
-    box-shadow: 1px 1px 6px #333333;
+    border: 1px solid #444444;
+    box-shadow: 1px 1px 6px #444444;
     position: relative;
     cursor: grab;
     font-size: 2vw;
